@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/estilos.css">
+    <script defer type="module" src="./resources/js/funciones.js"></script>
+    <title>Taller</title>
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <header class="encabezado">
+            <h2>Taller HTML, CSS y Javascript</h2>
+            <h3>Formulario</h3>
+        </header>
+        
+        <section class="seccion">
+            <form>
+                <div id="contenedor">
+                    <div class="columna">
+                            <h3>Datos personales</h3>
+                            <p>
+                                <label>Nombres:<br><input type="text" name="nombres" required id="nombre" class="ancho" ></label>
+                            </p>
+                            <p>
+                                <label>Apellidos:<br><input type="text" name="apellidos" id="apellidos" class="ancho" ></label>
+                            </p>
+                            <p>
+                                Sexo: <br>
+                                <label><input type="radio" id="femenino" name="sexo" value="femenino">Femenino</label>
+                                <label><input type="radio" id="masculino" name="sexo" value="masculino">Masculino</label>
+                            </p>
+                            <p>
+                                Fecha de nacimiento: <br> 
+                                <label><input type="date" id="fecha_nacimiento" name="fecha_nacimiento"
+                                    value="2018-07-22" min="1920-01-01" max="2021-04-10" class="ancho"></label>
+                            </p>
+                            <p>
+                                Nacionalidad: <br>
+                                <select name="nacionalidad" id="nacionalidad">
+                                    <option value="0">Alemania</option>
+                                    <option value="1">Brasil</option>
+                                    <option value="2" selected>Colombia</option>
+                                    <option value="3">Dinamarca</option>
+                                    <option value="4">España</option>
+                                    <option value="5">Francia</option>
+                                    <option value="6">Guatemala</option>
+                                    <option value="7">Holanda</option>
+                                    <option value="8">India</option>
+                                    <option value="9">Jamaica</option>
+                                    <option value="10">Kenia</option>
+                                    <option value="11">Letonia</option>
+                                    <option value="12">Madagascar</option>
+                                    <option value="13">Nueva Zelanda</option>
+                                </select>
+                            </p>
+                    </div>
+            
+                    <div class="columna">
+                        <h3>Datos de contacto</h3>
+                            <p>
+                                <label>Correo electrónico: <br>
+                                    <input type="email" name="correo_electronico" id="correo_electronico" class="ancho"></label>
+                            </p>
+                            <p>
+                                <label>Pais de residencia: <br>
+                                    <select name="nacionalidad" id="nacionalidad">
+                                        <option value="0">Alemania</option>
+                                        <option value="1">Brasil</option>
+                                        <option value="2" selected>Colombia</option>
+                                        <option value="3">Dinamarca</option>
+                                        <option value="4">España</option>
+                                        <option value="5">Francia</option>
+                                        <option value="6">Guatemala</option>
+                                        <option value="7">Holanda</option>
+                                        <option value="8">India</option>
+                                        <option value="9">Jamaica</option>
+                                        <option value="10">Kenia</option>
+                                        <option value="11">Letonia</option>
+                                        <option value="12">Madagascar</option>
+                                        <option value="13">Nueva Zelanda</option>
+                                    </select>
+                                </label>
+                            </p>
+                            <p>
+                                <label>Dirección: <br><input type="text" name="direccion" id="direccion" class="ancho"></label>
+                            </p>
+                            <p>
+                                <label>Ciudad: <br><input type="text" name="ciudad" id="ciudad" class="ancho"></label>
+                            </p>
+                            <p>
+                                <label>Teléfono: <br><input type="number" name="telefono" id="telefono" class="ancho"></label>
+                            </p>
+                            
+                    </div>
+            
+                    <div class="columna">
+                        <h3>Intereses</h3>
+                            <p>
+                                <label><input type="checkbox" name="intereses" id="apuestas" value="apuestas">Apuestas</label><br>
+                                <label><input aling="right" type="checkbox" name="intereses" id="baile" value="baile">Baile</label><br>
+                                <label><input aling="left" type="checkbox" name="intereses" id="deportes" value="deportes">Deportes</label><br>
+                                <label><input type="checkbox" name="intereses" id="dibujo " value="dibujo ">Dibujo</label><br>
+                                <label><input type="checkbox" name="intereses" id="cocina" value="cocina">Cocina</label><br>
+                                <label><input type="checkbox" name="intereses" id="comercio" value="comercio">Comercio</label><br>
+                                <label><input type="checkbox" name="intereses" id="entretenimiento " 
+                                    value="entretenimiento ">Entretenimiento </label><br>
+                                <label><input type="checkbox" name="intereses" id="juegos" value="juegos">Juegos</label><br>
+                            </p>
+                    </div>
+                    <div class="columna">
+                        <h3>Datos de registro</h3>
+                        <p>
+                            <label>Nombre de usuario: <b><input type="text" name="nombre_usuario" id="nombre_usuario"></label>
+                        </p>
+                        <p>
+                            <label>Contraseña: <b><input type="password" name="contraseña" id="contraseña"></label>
+                        </p>
+                    </div>                    
+                </div>
+                <div>
+                    <p>
+                        <!-- Alt+E | Alt+Shift+E -->
+                        <input type="button" value="Enviar" >
+                        <input type="reset" value="Borrar" tabindex="6">
+                    </p>
+                </div>
+                <footer>
+                    
+                </footer>
+            </form>
+        </section>
+
+        
+        <footer class="footer">
+            Taller HTML, CSS y Javascript - Juliana Moreno Trejos
+        </footer>
+
+
+
+    </div>
+    
+</body>
+</html>

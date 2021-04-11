@@ -1,0 +1,66 @@
+.contenedor {
+    display: flex;  
+    height: 100%;
+    width: 100%;
+    flex-flow: row wrap;
+    font-weight: bold;
+  }
+  
+.contenedor > * {
+    flex: 1 100%;
+}
+
+.columna {
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+
+.columna div {
+    height: 25%;
+    width: 99%;
+    margin: 5px;
+}
+
+.encabezado {
+    background: #6ed1f0;
+    text-align: center;
+}
+
+.footer {
+    background: #6ed1f0;
+    padding: 1em;
+}
+
+.seccion {
+    background: #96e0f7;
+    padding: 1em;
+    text-align: left;
+}
+
+.ancho, select{
+    width: 90%;
+    border-radius: .5em;
+    
+}
+
+h4 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
